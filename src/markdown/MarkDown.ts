@@ -1,3 +1,4 @@
+// convert markdown to html
 const FormatMarkDown = {
   toHtmlString(text: string): string {
     const htmlString = text
@@ -23,6 +24,7 @@ const FormatMarkDown = {
     else return combinedString;
   },
 
+  // format text based on markdown syntax
   styleText(elm: string) {
     const bold = /\*\*(\w+|(\w+.+\w+))\*\*/g,
       italic = /\*\*\*(\w+|(\w+.+\w+))+?\*\*\*/g,

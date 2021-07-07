@@ -8,6 +8,8 @@ function App() {
   const [markdownText, setMarkdownText] = useState(
     "**bold**\n***italic***\n_underline_"
   );
+
+  // context to pass data of from input to output components
   const contextValue = { markdownText, setMarkdownText };
 
   return (
