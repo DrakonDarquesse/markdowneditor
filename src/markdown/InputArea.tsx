@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { EditorContext } from "./EditorContext";
+import { EditorContext } from "../EditorContext";
 
 class InputArea extends Component {
   render() {

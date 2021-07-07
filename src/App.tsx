@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style/App.css";
-import InputArea from "./InputArea";
-import OutputArea from "./OutputArea";
+import InputArea from "./markdown/InputArea";
+import OutputArea from "./markdown/OutputArea";
 import { EditorContextData, EditorContext } from "./EditorContext";
 
 function App() {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { EditorContext } from "./EditorContext";
+import { EditorContext } from "../EditorContext";
 import FormatMarkDown from "./MarkDown";
 import Dompurify from "dompurify";
 
